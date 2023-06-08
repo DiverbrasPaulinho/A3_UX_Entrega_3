@@ -59,6 +59,24 @@ header > h1 {
     width: 1.5rem;
 }
 
+main > h2 {
+    text-align: center;
+}
+
+main > #saldos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+main > #atividades-recentes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
 footer {
     background-color: #6a6a6a;
 }
