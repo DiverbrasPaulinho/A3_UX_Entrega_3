@@ -16,7 +16,29 @@
 }
 
 .saldo-card {
-    min-height: 90px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    padding: 0.8rem;
+    height: 6.2rem;
     border-radius: 0.5rem;
     background-color: var(--card-color-light);
+}
+
+.divisor-medida-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+    height: 100%;
+}
+
+.divisor {
+    background-color: #727272;
+    width: 0.2rem;
+    min-height: 100%;
+}
+
+.saldo-valor-medida {
+    justify-self: flex-end;
 }

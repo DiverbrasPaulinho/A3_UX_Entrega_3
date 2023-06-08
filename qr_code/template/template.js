@@ -36,7 +36,7 @@ template.innerHTML = `
                 </article>
                 <article class="template_icon template_footer-icon person-icon">
                     <img src="../../assets/conta.svg" alt="Icone Usuário" />
-                    <span>Conta</span>
+                    <span>Minha Conta</span>
                 </article>
             </footer>
         </div>
